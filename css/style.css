@@ -1,0 +1,98 @@
+/*common start*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+
+}
+
+/*common end*/
+/*header start*/
+header{
+	padding: 25px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.logo{
+	width: 12%;
+	float: left;
+	margin-top: 18px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	margin: 0 60px;
+	padding: 4px 3px 3px;
+	display: inline-block;
+	 text-transform: uppercase;
+	 color: #626262;
+	 border-bottom: 1px solid transparent;
+	 transition: .3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+
+	}
+.menu ul li a:hover {
+	border-bottom: 1px solid #626262;
+}
+
+/*end*/
+
+/*bstart*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*end*/
+.perfect{
+	padding: 100px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+}
+.p_content{}
+.light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.ctille{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.ctext{
+	line-height: 25px;
+}
+.mb40{
+	margin-bottom: 40px;
+}
+
+
